@@ -1,5 +1,5 @@
-const http = require("http");
-const map = require("through2-map");
+import http from "http";
+import map from "through2-map";
 
 const port = process.argv[2];
 

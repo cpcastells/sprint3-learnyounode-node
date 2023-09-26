@@ -1,5 +1,5 @@
-const http = require("http");
-const { URL } = require("url");
+import http from "http";
+import { URL } from "url";
 
 const port = process.argv[2];
 const pathParse = "/api/parsetime";

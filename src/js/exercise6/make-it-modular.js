@@ -1,4 +1,4 @@
-const filterFiles = require("./mymodule");
+import filterFiles from "./mymodule.js";
 
 const path = process.argv[2];
 const extension = process.argv[3];
