@@ -1,4 +1,4 @@
-const fs = require("fs");
+import fs from "fs";
 
 const filterFiles = (path, extension, callback) => {
   fs.readdir(path, (error, files) => {
@@ -13,4 +13,4 @@ const filterFiles = (path, extension, callback) => {
   });
 };
 
-module.exports = filterFiles;
+export default filterFiles;
