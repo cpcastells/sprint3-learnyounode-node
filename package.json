@@ -33,6 +33,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@types/through2-map": "^3.0.2",
     "through2-map": "^3.0.0"
   }
 }
